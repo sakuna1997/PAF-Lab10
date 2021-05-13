@@ -59,7 +59,7 @@ public class ItemsAPI extends HttpServlet {
 		response.getWriter().write(output);
 	}
 
-	
+	//do delete method
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		 Map paras = getParasMap(request); 
