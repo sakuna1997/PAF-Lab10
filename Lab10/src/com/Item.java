@@ -123,6 +123,7 @@ public class Item {
 	public String updateItem(String ID, String code, String name, String price, String desc) { 
 		
 		String output = ""; 
+		
 		 try
 		 { 
 		 Connection con = connect(); 
